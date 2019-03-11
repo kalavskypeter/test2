@@ -1,0 +1,1 @@
+﻿@Dashboard,@Map,@activity;;<extra><actions>0;0;17</actions></extra>,@Tourplan,account,contact,lead,opportunity,quote,salesorder,invoice,@Setup,@About,@Map,@Favorites
