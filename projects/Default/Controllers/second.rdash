@@ -1,9 +1,5 @@
 ﻿<Dashboard xsi:dummy="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Columns>2</Columns>
   <Rows>2</Rows>
-  <Items>
-    <DashboardComponent xsi:type="DashboardComponent" Kind="IFrame" Binding="https://www.resco.net" Title="Web">
-      <Bounds>0,0,1,1</Bounds>
-    </DashboardComponent>
-  </Items>
+  <Items/>
 </Dashboard>
