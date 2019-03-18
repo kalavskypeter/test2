@@ -1,0 +1,15 @@
+﻿<EntityForm xsi:dummy="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" flexi="0" fleximode="1" fullscreen="0" resize="0" version="2">
+  <IsContactForm>false</IsContactForm>
+  <EntityName>quote</EntityName>
+  <CamelCase>quote</CamelCase>
+  <PrimaryCommands>GetProducts|||ActivateQuote|||WonQuote|||ReviseQuote|||LostQuote|||ChangeState||0;1;2;3|ChangeStatus||1;2;3;4;5;6;7|Delete|||EmailLink|||Favorite|||PrintReport|||RunMobileReport|||CreateInvoice|||CheckIn|||custom_myCommand||</PrimaryCommands>
+  <EnabledWorkflows>OnLoadEnabled OnChangeEnabled OnSaveEnabled OnExecuteCommand OnCanExecuteCommand</EnabledWorkflows>
+  <SerializedChildrenV2>
+    <FormTab xsi:type="DetailTab">
+      <Name>General</Name>
+      <SerializedChildren>
+        <DetailItem SchemaName="name"/>
+      </SerializedChildren>
+    </FormTab>
+  </SerializedChildrenV2>
+</EntityForm>
