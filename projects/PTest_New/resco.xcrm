@@ -2,16 +2,302 @@
   <entities>
     <entity schema="account">
       <properties>
+        <property schema="accountcategorycode"/>
+        <property schema="accountclassificationcode"/>
         <property schema="accountid"/>
+        <property schema="accountnumber"/>
+        <property schema="accountratingcode"/>
+        <property schema="address1_addressid"/>
+        <property schema="address1_addresstypecode"/>
+        <property schema="address1_city"/>
+        <property schema="address1_composite"/>
+        <property schema="address1_country"/>
+        <property schema="address1_county"/>
+        <property schema="address1_fax"/>
+        <property schema="address1_freighttermscode"/>
+        <property schema="address1_latitude"/>
+        <property schema="address1_line1"/>
+        <property schema="address1_line2"/>
+        <property schema="address1_line3"/>
+        <property schema="address1_longitude"/>
+        <property schema="address1_name"/>
+        <property schema="address1_postalcode"/>
+        <property schema="address1_postofficebox"/>
+        <property schema="address1_primarycontactname"/>
+        <property schema="address1_shippingmethodcode"/>
+        <property schema="address1_stateorprovince"/>
+        <property schema="address1_telephone1"/>
+        <property schema="address1_telephone2"/>
+        <property schema="address1_telephone3"/>
+        <property schema="address1_upszone"/>
+        <property schema="address1_utcoffset"/>
+        <property schema="address2_addressid"/>
+        <property schema="address2_addresstypecode"/>
+        <property schema="address2_city"/>
+        <property schema="address2_composite"/>
+        <property schema="address2_country"/>
+        <property schema="address2_county"/>
+        <property schema="address2_fax"/>
+        <property schema="address2_freighttermscode"/>
+        <property schema="address2_latitude"/>
+        <property schema="address2_line1"/>
+        <property schema="address2_line2"/>
+        <property schema="address2_line3"/>
+        <property schema="address2_longitude"/>
+        <property schema="address2_name"/>
+        <property schema="address2_postalcode"/>
+        <property schema="address2_postofficebox"/>
+        <property schema="address2_primarycontactname"/>
+        <property schema="address2_shippingmethodcode"/>
+        <property schema="address2_stateorprovince"/>
+        <property schema="address2_telephone1"/>
+        <property schema="address2_telephone2"/>
+        <property schema="address2_telephone3"/>
+        <property schema="address2_upszone"/>
+        <property schema="address2_utcoffset"/>
+        <property schema="aging30"/>
+        <property schema="aging30_base"/>
+        <property schema="aging60"/>
+        <property schema="aging60_base"/>
+        <property schema="aging90"/>
+        <property schema="aging90_base"/>
+        <property schema="businesstypecode"/>
+        <property schema="createdby"/>
+        <property schema="createdbyexternalparty"/>
         <property schema="createdon"/>
+        <property schema="createdonbehalfby"/>
+        <property schema="creditlimit"/>
+        <property schema="creditlimit_base"/>
+        <property schema="creditonhold"/>
+        <property schema="customersizecode"/>
+        <property schema="customertypecode"/>
+        <property schema="defaultpricelevelid"/>
+        <property schema="description"/>
+        <property schema="donotbulkemail"/>
+        <property schema="donotbulkpostalmail"/>
+        <property schema="donotemail"/>
+        <property schema="donotfax"/>
+        <property schema="donotphone"/>
+        <property schema="donotpostalmail"/>
+        <property schema="donotsendmm"/>
+        <property schema="emailaddress1"/>
+        <property schema="emailaddress2"/>
+        <property schema="emailaddress3"/>
+        <property schema="entityimage"/>
+        <property schema="entityimageid"/>
+        <property schema="exchangerate"/>
+        <property schema="fax"/>
+        <property schema="followemail"/>
+        <property schema="ftpsiteurl"/>
+        <property schema="importsequencenumber"/>
+        <property schema="industrycode"/>
+        <property schema="lastonholdtime"/>
+        <property schema="lastusedincampaign"/>
+        <property schema="marketcap"/>
+        <property schema="marketcap_base"/>
+        <property schema="marketingonly"/>
+        <property schema="masterid"/>
+        <property schema="merged"/>
+        <property schema="modifiedby"/>
+        <property schema="modifiedbyexternalparty"/>
         <property schema="modifiedon"/>
+        <property schema="modifiedonbehalfby"/>
+        <property schema="msdyn_billingaccount"/>
+        <property schema="msdyn_preferredresource"/>
+        <property schema="msdyn_salestaxcode"/>
+        <property schema="msdyn_serviceterritory"/>
+        <property schema="msdyn_taxexempt"/>
+        <property schema="msdyn_taxexemptnumber"/>
+        <property schema="msdyn_travelcharge"/>
+        <property schema="msdyn_travelcharge_base"/>
+        <property schema="msdyn_travelchargetype"/>
+        <property schema="msdyn_workorderinstructions"/>
         <property schema="name"/>
+        <property schema="numberofemployees"/>
+        <property schema="onholdtime"/>
+        <property schema="opendeals"/>
+        <property schema="opendeals_date"/>
+        <property schema="opendeals_state"/>
+        <property schema="openrevenue"/>
+        <property schema="openrevenue_base"/>
+        <property schema="openrevenue_date"/>
+        <property schema="openrevenue_state"/>
+        <property schema="originatingleadid"/>
+        <property schema="overriddencreatedon"/>
         <property schema="ownerid"/>
+        <property schema="ownershipcode"/>
+        <property schema="owningbusinessunit"/>
+        <property schema="owningteam"/>
+        <property schema="owninguser"/>
+        <property schema="parentaccountid"/>
+        <property schema="participatesinworkflow"/>
+        <property schema="paymenttermscode"/>
+        <property schema="preferredappointmentdaycode"/>
+        <property schema="preferredappointmenttimecode"/>
+        <property schema="preferredcontactmethodcode"/>
+        <property schema="preferredequipmentid"/>
+        <property schema="preferredserviceid"/>
+        <property schema="preferredsystemuserid"/>
+        <property schema="primarycontactid"/>
+        <property schema="primarysatoriid"/>
+        <property schema="primarytwitterid"/>
+        <property schema="processid"/>
+        <property schema="revenue"/>
+        <property schema="revenue_base"/>
+        <property schema="sharesoutstanding"/>
+        <property schema="shippingmethodcode"/>
+        <property schema="sic"/>
+        <property schema="slaid"/>
+        <property schema="slainvokedid"/>
+        <property schema="stageid"/>
+        <property schema="statecode"/>
+        <property schema="statuscode"/>
+        <property schema="stockexchange"/>
+        <property schema="teamsfollowed"/>
+        <property schema="telephone1"/>
+        <property schema="telephone2"/>
+        <property schema="telephone3"/>
+        <property schema="territorycode"/>
+        <property schema="territoryid"/>
+        <property schema="tickersymbol"/>
+        <property schema="timespentbymeonemailandmeetings"/>
+        <property schema="timezoneruleversionnumber"/>
+        <property schema="transactioncurrencyid"/>
+        <property schema="traversedpath"/>
+        <property schema="utcconversiontimezonecode"/>
+        <property schema="versionnumber"/>
+        <property schema="websiteurl"/>
+        <property schema="yominame"/>
       </properties>
       <indexes>
+        <index schema="idx_account_createdby" issystem="true">
+          <fields>
+            <field schema="createdby"/>
+          </fields>
+        </index>
+        <index schema="idx_account_createdbyexternalparty" issystem="true">
+          <fields>
+            <field schema="createdbyexternalparty"/>
+          </fields>
+        </index>
+        <index schema="idx_account_createdonbehalfby" issystem="true">
+          <fields>
+            <field schema="createdonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_account_defaultpricelevelid" issystem="true">
+          <fields>
+            <field schema="defaultpricelevelid"/>
+          </fields>
+        </index>
+        <index schema="idx_account_masterid" issystem="true">
+          <fields>
+            <field schema="masterid"/>
+          </fields>
+        </index>
+        <index schema="idx_account_modifiedby" issystem="true">
+          <fields>
+            <field schema="modifiedby"/>
+          </fields>
+        </index>
+        <index schema="idx_account_modifiedbyexternalparty" issystem="true">
+          <fields>
+            <field schema="modifiedbyexternalparty"/>
+          </fields>
+        </index>
+        <index schema="idx_account_modifiedonbehalfby" issystem="true">
+          <fields>
+            <field schema="modifiedonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_account_msdyn_billingaccount" issystem="true">
+          <fields>
+            <field schema="msdyn_billingaccount"/>
+          </fields>
+        </index>
+        <index schema="idx_account_msdyn_preferredresource" issystem="true">
+          <fields>
+            <field schema="msdyn_preferredresource"/>
+          </fields>
+        </index>
+        <index schema="idx_account_msdyn_salestaxcode" issystem="true">
+          <fields>
+            <field schema="msdyn_salestaxcode"/>
+          </fields>
+        </index>
+        <index schema="idx_account_msdyn_serviceterritory" issystem="true">
+          <fields>
+            <field schema="msdyn_serviceterritory"/>
+          </fields>
+        </index>
+        <index schema="idx_account_originatingleadid" issystem="true">
+          <fields>
+            <field schema="originatingleadid"/>
+          </fields>
+        </index>
         <index schema="idx_account_ownerid" issystem="true">
           <fields>
             <field schema="ownerid"/>
+          </fields>
+        </index>
+        <index schema="idx_account_owningbusinessunit" issystem="true">
+          <fields>
+            <field schema="owningbusinessunit"/>
+          </fields>
+        </index>
+        <index schema="idx_account_owningteam" issystem="true">
+          <fields>
+            <field schema="owningteam"/>
+          </fields>
+        </index>
+        <index schema="idx_account_owninguser" issystem="true">
+          <fields>
+            <field schema="owninguser"/>
+          </fields>
+        </index>
+        <index schema="idx_account_parentaccountid" issystem="true">
+          <fields>
+            <field schema="parentaccountid"/>
+          </fields>
+        </index>
+        <index schema="idx_account_preferredequipmentid" issystem="true">
+          <fields>
+            <field schema="preferredequipmentid"/>
+          </fields>
+        </index>
+        <index schema="idx_account_preferredserviceid" issystem="true">
+          <fields>
+            <field schema="preferredserviceid"/>
+          </fields>
+        </index>
+        <index schema="idx_account_preferredsystemuserid" issystem="true">
+          <fields>
+            <field schema="preferredsystemuserid"/>
+          </fields>
+        </index>
+        <index schema="idx_account_primarycontactid" issystem="true">
+          <fields>
+            <field schema="primarycontactid"/>
+          </fields>
+        </index>
+        <index schema="idx_account_slaid" issystem="true">
+          <fields>
+            <field schema="slaid"/>
+          </fields>
+        </index>
+        <index schema="idx_account_slainvokedid" issystem="true">
+          <fields>
+            <field schema="slainvokedid"/>
+          </fields>
+        </index>
+        <index schema="idx_account_territoryid" issystem="true">
+          <fields>
+            <field schema="territoryid"/>
+          </fields>
+        </index>
+        <index schema="idx_account_transactioncurrencyid" issystem="true">
+          <fields>
+            <field schema="transactioncurrencyid"/>
           </fields>
         </index>
         <index schema="idx_account_name" issystem="true">
