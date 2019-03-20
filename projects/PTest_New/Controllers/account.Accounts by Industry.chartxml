@@ -1,6 +1,7 @@
 ﻿<EntityChart>
   <Name>Accounts by Industry</Name>
-  <Kind>Bar</Kind>
+  <Kind>Gauge</Kind>
+  <LimitCount>3</LimitCount>
   <Fetch version="1.0" aggregate="true">
     <entity name="account">
       <attribute name="industrycode" groupby="true" alias="groupby_column"/>
@@ -10,12 +11,18 @@
   <Axis>industrycode</Axis>
   <MinValue>
     <Color>#FF0000FF</Color>
+    <ValueType>Constant</ValueType>
+    <NumericValue>3</NumericValue>
   </MinValue>
   <MaxValue>
     <Color>#FF0000FF</Color>
+    <ValueType>Constant</ValueType>
+    <NumericValue>4</NumericValue>
   </MaxValue>
   <TargetValue>
-    <Color>#FF0000FF</Color>
+    <Color>#FFc23d5a</Color>
+    <ValueType>Constant</ValueType>
+    <NumericValue>3</NumericValue>
   </TargetValue>
   <SerializedBindings/>
   <Attributes>
@@ -25,7 +32,7 @@
   <Series>
     <Series>
       <Attribute>name</Attribute>
-      <Color>#FF0000FF</Color>
+      <Color>#FFd2f709</Color>
     </Series>
   </Series>
   <BarStyle>Grouped</BarStyle>
