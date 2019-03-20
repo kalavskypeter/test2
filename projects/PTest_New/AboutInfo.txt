@@ -1,4 +1,4 @@
-﻿Manufacturer=Rescoa
+﻿Manufacturer=Rescoatest
 ProductTitle=MobileCRM
 ProductSubTitle=For Microsoft Dynamics CRM
 PoweredBy=Powered by Resco.Net
