@@ -1,0 +1,68 @@
+﻿<EntityList>
+  <Attributes>
+    <EntityName>opportunityproduct</EntityName>
+    <CamelCase>OpportunityProduct</CamelCase>
+    <WrapperClass>MobileCrm.Model.OpportunityProduct</WrapperClass>
+    <VisualStudioProjectId>c0f71827-e4f6-464e-a71d-c36687d5738e</VisualStudioProjectId>
+    <ClassBinding>
+      <SerializedClassBinding name="#Amount" label="Amount" type="String"/>
+      <SerializedClassBinding name="#ExtendedAmountLabel" label="ExtendedAmountLabel" type="String"/>
+      <SerializedClassBinding name="#IsEditable" label="IsEditable" type="String"/>
+      <SerializedClassBinding name="#Opportunity" label="Opportunity" type="String"/>
+      <SerializedClassBinding name="#PriceLevels" label="PriceLevels" type="String"/>
+      <SerializedClassBinding name="#PricePerUnitLabel" label="PricePerUnitLabel" type="String"/>
+      <SerializedClassBinding name="#PrimaryName" label="PrimaryName" type="String"/>
+      <SerializedClassBinding name="#ProductPriceLevel" label="ProductPriceLevel" type="String"/>
+    </ClassBinding>
+  </Attributes>
+  <Name>Default</Name>
+  <EnabledWorkflows>65535</EnabledWorkflows>
+  <Kind>List</Kind>
+  <AutoWideWidth>0</AutoWideWidth>
+  <OrderBy></OrderBy>
+  <SerializedBindings>
+    <string>createdon</string>
+    <string>transactioncurrencyid</string>
+    <string>extendedamount</string>
+    <string>modifiedon</string>
+    <string>opportunityid</string>
+    <string>opportunityproductid</string>
+    <string>priceperunit</string>
+    <string>productid</string>
+    <string>quantity</string>
+    <string>uomid</string>
+    <string>opportunityproductname</string>
+    <string>ownerid</string>
+  </SerializedBindings>
+  <MaxColumns>0</MaxColumns>
+  <SerializedTemplates>
+    <RowTemplate>
+      <DesignWidth>240</DesignWidth>
+      <DesignHeight>40</DesignHeight>
+      <Name>Default</Name>
+      <Width>240</Width>
+      <Height>40</Height>
+      <SerializedChildren>
+        <CellTemplate SchemaName="#PrimaryName">
+          <StyleName>primary</StyleName>
+          <Bounds>8,2,123,35</Bounds>
+          <CellKind>0</CellKind>
+          <Anchor>13</Anchor>
+        </CellTemplate>
+        <CellTemplate SchemaName="quantity">
+          <StyleName>primary</StyleName>
+          <Bounds>140,22,100,18</Bounds>
+          <CellKind>3</CellKind>
+          <Anchor>5</Anchor>
+        </CellTemplate>
+        <CellTemplate SchemaName="quantity">
+          <StyleName>primary</StyleName>
+          <Bounds>140,1,100,20</Bounds>
+          <CellKind>5</CellKind>
+          <Anchor>5</Anchor>
+        </CellTemplate>
+      </SerializedChildren>
+    </RowTemplate>
+  </SerializedTemplates>
+  <CustomProperties/>
+</EntityList>
