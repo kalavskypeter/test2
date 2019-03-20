@@ -1,0 +1,32 @@
+﻿<EntityChart>
+  <Name>Accounts by Industry</Name>
+  <Kind>Bar</Kind>
+  <Fetch version="1.0" aggregate="true">
+    <entity name="account">
+      <attribute name="industrycode" groupby="true" alias="groupby_column"/>
+      <attribute name="name" aggregate="count" alias="aggregate_column"/>
+    </entity>
+  </Fetch>
+  <Axis>industrycode</Axis>
+  <MinValue>
+    <Color>#FF0000FF</Color>
+  </MinValue>
+  <MaxValue>
+    <Color>#FF0000FF</Color>
+  </MaxValue>
+  <TargetValue>
+    <Color>#FF0000FF</Color>
+  </TargetValue>
+  <SerializedBindings/>
+  <Attributes>
+    <EntityName>account</EntityName>
+    <CamelCase>Account</CamelCase>
+  </Attributes>
+  <Series>
+    <Series>
+      <Attribute>name</Attribute>
+      <Color>#FF0000FF</Color>
+    </Series>
+  </Series>
+  <BarStyle>Grouped</BarStyle>
+</EntityChart>
