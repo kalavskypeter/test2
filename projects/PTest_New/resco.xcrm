@@ -1,5 +1,26 @@
 ﻿<model version="7" Chat="true" publish="10000">
   <entities>
+    <entity schema="account">
+      <properties>
+        <property schema="accountid"/>
+        <property schema="createdon"/>
+        <property schema="modifiedon"/>
+        <property schema="name"/>
+        <property schema="ownerid"/>
+      </properties>
+      <indexes>
+        <index schema="idx_account_ownerid" issystem="true">
+          <fields>
+            <field schema="ownerid"/>
+          </fields>
+        </index>
+        <index schema="idx_account_name" issystem="true">
+          <fields>
+            <field schema="name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
     <entity schema="activity">
       <properties>
         <property schema="activityid"/>
