@@ -1,0 +1,15 @@
+﻿<GlobalMap>
+  <Items>
+    <GlobalMapComponent>
+      <EntityName>account</EntityName>
+      <ViewName>Default</ViewName>
+    </GlobalMapComponent>
+  </Items>
+  <Setup>
+    <Latitude>48.20116354244706</Latitude>
+    <Longitude>17.288790601976554</Longitude>
+    <Zoom>13</Zoom>
+    <AggregatePins>true</AggregatePins>
+    <ExpandPins>false</ExpandPins>
+  </Setup>
+</GlobalMap>
