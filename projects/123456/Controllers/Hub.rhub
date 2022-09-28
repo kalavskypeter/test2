@@ -1,0 +1,8 @@
+﻿<HubDefinition>
+  <Group name="New Group">
+    <View name="Collection">
+      <EntityView entity="account" view="Default" sort="address1_latitude"/>
+    </View>
+  </Group>
+  <Item entity="account" property="undefined" parent="true"/>
+</HubDefinition>
