@@ -1,0 +1,1 @@
+﻿@Dashboard,@Map,@activity,!InitialItem,@Tourplan,@RoutePlan;;RoutePlan,account,contact,lead,opportunity,#Other,quote,salesorder,invoice,product,##,@Setup,@Hub;;Hub|fs_settings,@Hub;;Hub4,@About,@Map;;a|fs_time_off,@Scheduler,@@OpenExisting;data:open?account;0c312f0e-7258-434b-a4e9-345384a64fbe,@Scheduler;;Default,#New Group,##
