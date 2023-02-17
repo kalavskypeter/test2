@@ -1,6 +1,6 @@
 ﻿<model version="8" publish="10000">
   <entities>
-    <entity schema="account">
+    <entity schema="account" conflict="32768" xattr="32768">
       <properties>
         <property schema="address1_city"/>
         <property schema="address1_country"/>
