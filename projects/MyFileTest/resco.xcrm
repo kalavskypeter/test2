@@ -180,7 +180,7 @@
         </index>
       </indexes>
     </entity>
-    <entity schema="contact">
+    <entity schema="contact" conflict="16384" xattr="16384">
       <properties>
         <property schema="address1_city"/>
         <property schema="address1_country"/>
