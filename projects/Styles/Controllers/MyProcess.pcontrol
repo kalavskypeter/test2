@@ -1,0 +1,6 @@
+﻿<ProcessControl>
+  <ProcessName>MyProcess</ProcessName>
+  <Entity>contact</Entity>
+  <Field>preferredcontactmethodcode</Field>
+  <ProcessSteps>1;undefined;undefined;undefined;false;false|2;undefined;undefined;undefined;false;false|3;undefined;undefined;undefined;false;false|4;undefined;undefined;undefined;false;false|5;undefined;undefined;undefined;false;false|</ProcessSteps>
+</ProcessControl>

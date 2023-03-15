@@ -1,0 +1,21 @@
+﻿<EntityChart>
+  <Name>Default</Name>
+  <Kind>Bar</Kind>
+  <LimitCount>3</LimitCount>
+  <MinValue>
+    <Color>#FF0000FF</Color>
+  </MinValue>
+  <MaxValue>
+    <Color>#FF0000FF</Color>
+  </MaxValue>
+  <TargetValue>
+    <Color>#FF0000FF</Color>
+  </TargetValue>
+  <SerializedBindings/>
+  <Attributes>
+    <EntityName>contact</EntityName>
+    <CamelCase>contact</CamelCase>
+  </Attributes>
+  <Series/>
+  <GroupBySeries/>
+</EntityChart>

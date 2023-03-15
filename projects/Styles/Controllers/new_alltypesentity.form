@@ -1,0 +1,39 @@
+﻿<EntityForm xsi:dummy="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" flexi="0" fleximode="1" fullscreen="0" resize="0" version="2">
+  <IsContactForm>false</IsContactForm>
+  <EntityName>new_alltypesentity</EntityName>
+  <CamelCase>new_alltypesentity</CamelCase>
+  <IsBulkUpdateForm>false</IsBulkUpdateForm>
+  <CacheMode>-1</CacheMode>
+  <PrimaryCommands>!defcmd</PrimaryCommands>
+  <EnabledWorkflows>OnLoadEnabled OnChangeEnabled OnSaveEnabled OnExecuteCommand OnCanExecuteCommand OnExecuteButton</EnabledWorkflows>
+  <SerializedChildrenV2>
+    <FormTab xsi:type="DetailTab" NameModified="0" IconModified="0" EntityIconName="MobileCrm\Images.MonoTouch\Tabs\General@2x.png" IsIconNameReadOnly="0">
+      <Name>General</Name>
+      <SerializedChildren>
+        <DetailItem SchemaName="new_name"/>
+        <DetailItem SchemaName="new_twooptions"/>
+        <DetailItem SchemaName="new_singleline100"/>
+        <DetailItem SchemaName="ownerid"/>
+        <DetailItem SchemaName="new_optionset"/>
+        <DetailItem SchemaName="new_image_url"/>
+        <DetailItem SchemaName="new_image_timestamp"/>
+        <DetailItem SchemaName="new_name"/>
+        <DetailItem SchemaName="new_multiplelines"/>
+        <DetailItem SchemaName="modifiedon"/>
+        <DetailItem SchemaName="new_lookup"/>
+        <DetailItem SchemaName="new_image"/>
+        <DetailItem SchemaName="new_floatingpoint"/>
+        <DetailItem SchemaName="new_decimalno"/>
+        <DetailItem SchemaName="new_datetime"/>
+        <DetailItem SchemaName="new_currency_base"/>
+        <DetailItem SchemaName="new_currency"/>
+        <DetailItem SchemaName="createdon"/>
+        <DetailItem SchemaName="new_alltypesentityid"/>
+      </SerializedChildren>
+    </FormTab>
+    <FormTab xsi:type="AssociatedTab" flexi="0" NameModified="0" IconModified="0" EntityIconName="" IsIconNameReadOnly="0">
+      <Name>Accounts List (*)</Name>
+      <Binding SchemaName="account.@virtual"/>
+    </FormTab>
+  </SerializedChildrenV2>
+</EntityForm>
