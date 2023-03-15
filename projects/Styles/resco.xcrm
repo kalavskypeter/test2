@@ -531,7 +531,7 @@
         </index>
       </indexes>
     </entity>
-    <entity schema="new_alltypesentity">
+    <entity schema="new_alltypesentity" conflict="32768" xattr="32768">
       <properties>
         <property schema="createdon"/>
         <property schema="modifiedon"/>
@@ -731,6 +731,28 @@
         <property schema="text"/>
         <property schema="type"/>
       </properties>
+      <indexes>
+        <index schema="idx_post_createdby" issystem="true">
+          <fields>
+            <field schema="createdby"/>
+          </fields>
+        </index>
+        <index schema="idx_post_regardingobjectid" issystem="true">
+          <fields>
+            <field schema="regardingobjectid"/>
+          </fields>
+        </index>
+        <index schema="idx_post_regardingobjectownerid" issystem="true">
+          <fields>
+            <field schema="regardingobjectownerid"/>
+          </fields>
+        </index>
+        <index schema="idx_post_text" issystem="true">
+          <fields>
+            <field schema="text"/>
+          </fields>
+        </index>
+      </indexes>
     </entity>
     <entity schema="postcomment" isonlineonly="true">
       <properties>
@@ -740,6 +762,23 @@
         <property schema="postid"/>
         <property schema="text"/>
       </properties>
+      <indexes>
+        <index schema="idx_postcomment_createdby" issystem="true">
+          <fields>
+            <field schema="createdby"/>
+          </fields>
+        </index>
+        <index schema="idx_postcomment_postid" issystem="true">
+          <fields>
+            <field schema="postid"/>
+          </fields>
+        </index>
+        <index schema="idx_postcomment_text" issystem="true">
+          <fields>
+            <field schema="text"/>
+          </fields>
+        </index>
+      </indexes>
     </entity>
     <entity schema="postfollow" isonlineonly="true">
       <properties>
@@ -749,6 +788,23 @@
         <property schema="postfollowid"/>
         <property schema="regardingobjectid"/>
       </properties>
+      <indexes>
+        <index schema="idx_postfollow_createdby" issystem="true">
+          <fields>
+            <field schema="createdby"/>
+          </fields>
+        </index>
+        <index schema="idx_postfollow_ownerid" issystem="true">
+          <fields>
+            <field schema="ownerid"/>
+          </fields>
+        </index>
+        <index schema="idx_postfollow_regardingobjectid" issystem="true">
+          <fields>
+            <field schema="regardingobjectid"/>
+          </fields>
+        </index>
+      </indexes>
     </entity>
     <entity schema="pricelevel">
       <properties>
