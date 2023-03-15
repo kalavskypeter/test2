@@ -1,6 +1,6 @@
 ﻿<model version="8" publish="10000">
   <entities>
-    <entity schema="account" conflict="32768" xattr="32768">
+    <entity schema="account">
       <properties>
         <property schema="accountcategorycode"/>
         <property schema="accountid"/>
